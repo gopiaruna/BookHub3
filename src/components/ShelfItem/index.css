@@ -1,0 +1,32 @@
+.list-item {
+  margin-bottom: 5px;
+}
+.shelf-link-btn {
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color: #475569;
+  cursor: pointer;
+  border: none;
+}
+.active-shelf-btn {
+  color: #0284c7;
+}
+@media screen and (max-width: 576px) {
+  .shelf-link-btn {
+    border: 1px solid #0284c7;
+    border-radius: 8px;
+    color: #0284c7;
+    font-size: 11px;
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+  .list-item {
+    margin-left: 5px;
+  }
+  .active-shelf-btn {
+    background-color: #0284c7;
+    color: #ffffff;
+  }
+}

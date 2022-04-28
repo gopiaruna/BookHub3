@@ -1,0 +1,32 @@
+.contact-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.list-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px;
+  list-style-type: none;
+}
+.contact-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.contact-us {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 12px;
+  color: #3d3c3c;
+  text-align: center;
+  margin-top: -5px;
+}
+.h1-dark {
+  color: #ffffff;
+}

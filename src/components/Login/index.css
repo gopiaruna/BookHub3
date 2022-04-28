@@ -1,0 +1,158 @@
+.login-page-cont {
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.background-image {
+  width: 50%;
+  height: 100vh;
+}
+@media screen and (max-width: 576px) {
+  .login-page-cont {
+    padding: 15px;
+    padding-top: 65px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+  }
+  .background-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    text-align: center;
+  }
+}
+
+.form-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+}
+.form {
+  width: 499px;
+  height: 484px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo-cont {
+  width: 141px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 58px;
+}
+@media screen and (max-width: 576px) {
+  .form {
+    width: 380px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-cont {
+    margin-bottom: 28px;
+  }
+}
+.username-cont {
+  width: 360px;
+  height: 90px;
+}
+
+.user-input {
+  width: 360px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid #c3cad9;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding-left: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #183b56;
+}
+
+@media screen and (max-width: 576px) {
+  .username-cont {
+    width: 200px;
+    height: 60px;
+  }
+  .user-input {
+    width: 190px;
+    height: 36px;
+    font-size: 12px;
+    line-height: 19px;
+    padding-left: 10px;
+  }
+}
+
+.input-label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5a7184;
+}
+.login-btn {
+  width: 360px;
+  height: 56px;
+  border-radius: 8px;
+  background: #0284c7;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+}
+.error-msg {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ef4444;
+  margin-top: -10px;
+  margin-right: 110px;
+}
+.check-box-cont {
+  width: 360px;
+  height: 40px;
+}
+@media screen and (max-width: 576px) {
+  .input-label {
+    font-size: 13px;
+  }
+  .check-box-cont {
+    width: 200px;
+    height: 40px;
+  }
+  .error-msg {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  .login-btn {
+    width: 200px;
+    height: 40px;
+    font-size: 13px;
+  }
+}
